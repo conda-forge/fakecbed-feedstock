@@ -1,5 +1,5 @@
 {% set name = "fakecbed" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fakecbed-{{ version }}.tar.gz
-  sha256: 82480192b723ad572abb9811c221b4d4cc118e0cc7ea8502b871f86fd224a9b2
+  sha256: 646c9ce482707fddb106d67a50722543f60999a9198a0b889542875d5192a13c
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - distoptica >=0.1.1
+    - distoptica >=0.3.0
     - hyperspy
 
 test:
