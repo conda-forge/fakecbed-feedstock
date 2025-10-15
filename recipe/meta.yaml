@@ -23,7 +23,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - distoptica >=0.3.0
+    - distoptica >=0.4.0
+    - empix
     - hyperspy
 
 test:
