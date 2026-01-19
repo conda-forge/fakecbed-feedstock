@@ -1,5 +1,5 @@
 {% set name = "fakecbed" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fakecbed-{{ version }}.tar.gz
-  sha256: 3059bc4108dda9e479b9866f52dc13c95b2e3a97b46d083a7ae295ff54637925
+  sha256: 8c1c590c8e10cc7748874a2314b745838a11f1d17308f5dfe6bd54ecd8235bf0
 
 build:
   noarch: python
